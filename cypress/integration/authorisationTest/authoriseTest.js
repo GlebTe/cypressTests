@@ -1,7 +1,7 @@
 /// <reference types ="cypress" />
 
 
-it('google test', function(){
+it('authorisation test', function(){
     cy.visit('https://isfront.ru/login')
     cy.get('.value > :nth-child(1) > div').click()
     cy.contains('Вход под СМС') .click() 
